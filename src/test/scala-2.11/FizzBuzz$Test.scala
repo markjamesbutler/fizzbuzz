@@ -4,7 +4,7 @@ class FizzBuzz$Test extends FlatSpec with Matchers {
 
   import FizzBuzz._
 
-  it should "print correctly" in {
+  it should "fizz buzz" in {
 
     fizz(1) should be(1.toString)
     fizz(2) should be(2.toString)
