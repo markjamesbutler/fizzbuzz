@@ -1,5 +1,4 @@
 import scala.collection.parallel.immutable.ParSeq
-import scala.math._
 
 object FizzBuzz {
 
