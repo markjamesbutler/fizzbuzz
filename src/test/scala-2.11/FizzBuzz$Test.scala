@@ -4,15 +4,14 @@ class FizzBuzz$Test extends FlatSpec with Matchers {
 
   import FizzBuzz._
 
-  it should "fizz buzz" in {
+  it should "fizzBuzz buzz" in {
 
-    fizz(1) should be(1.toString)
-    fizz(2) should be(2.toString)
-    fizz(3) should be("Fizz")
-    fizz(4) should be(4.toString)
-    fizz(5) should be("Buzz")
-    fizz(15) should be("FizzBuzz")
-
+    fizzBuzz(1) should be(1.toString)
+    fizzBuzz(2) should be(2.toString)
+    fizzBuzz(3) should be("Fizz")
+    fizzBuzz(4) should be(4.toString)
+    fizzBuzz(5) should be("Buzz")
+    fizzBuzz(15) should be("FizzBuzz")
   }
 
 }
